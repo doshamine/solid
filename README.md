@@ -4,7 +4,7 @@
 Далее перечисление применяется для [проверки количества параметров](https://github.com/doshamine/solid/blob/main/src/Main.java#L30-L33) и [индексации массива параметров](https://github.com/doshamine/solid/blob/main/src/Main.java#L35-L37).
 
 ## Принцип DRY
-В реализации метода [show в классе SimpleOrder](https://github.com/doshamine/solid/blob/main/src/implementations/SimpleOrder.java#L18-L24) для вывода информации о товарах в заказе используется уже готовый метод класса [Cart](https://github.com/doshamine/solid/blob/main/src/interfaces/Cart.java).
+В реализации метода [show в классе SimpleOrder](https://github.com/doshamine/solid/blob/main/src/implementations/SimpleOrder.java#L19-L25) для вывода информации о товарах в заказе используется уже готовый метод класса [Cart](https://github.com/doshamine/solid/blob/main/src/interfaces/Cart.java).
 
 ## Принцип единственной ответственности
 Функции заполнения корзины и организации доставки разделены на два разных класса: соответственно [Cart](https://github.com/doshamine/solid/blob/main/src/interfaces/Cart.java) и [Delivery](https://github.com/doshamine/solid/blob/main/src/interfaces/Delivery.java).
